@@ -143,7 +143,6 @@ Sometimes the classes are not in session so you have to wait a couple of months,
   I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
   I like using university lectures.
 
-
 ## Interview Process & General Interview Prep
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -227,53 +226,6 @@ OR:
   - by Goodrich, Tamassia, Goldwasser
   - used as optional text for CS intro course at UC Berkeley
   - see my book report on the Python version below. This book covers the same topics.
-
-## Before you Get Started
-
-This list grew over many months, and yes, it kind of got out of hand.
-
-Here are some mistakes I made so you'll have a better experience.
-
-### 1. You Won't Remember it All
-
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
-
-Read please so you won't make my mistakes:
-
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
-
-### 2. Use Flashcards
-
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
-
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
-
-Make your own for free:
-
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
-
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
-
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
-
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
-
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
-
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
 
 ## The Daily Plan
 
@@ -1321,14 +1273,6 @@ Have a story, not just data, about something you accomplished.
 - What do you like about it?
 - What is the work life like?
 
-## Once You've Got The Job
-
-Congratulations!
-
-Keep learning.
-
-You're never really done.
-
 ---
 
   *****************************************************************************************************
@@ -1345,10 +1289,6 @@ You're never really done.
 
 ## Additional Books
 
-- [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
-  - an oldie but a goodie
-- [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-  - a modern option
 - [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
   - a gentle introduction to design patterns
@@ -1363,112 +1303,120 @@ These topics will likely not come up in an interview, but I added them to help y
 software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
 
 ### Compilers
-  - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
-  - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
-  - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
-  - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+
+- [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
+- [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
+- [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
+- [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 ### Unix command line tools
-  - I filled in the list below from good tools.
-  - [ ] bash
-  - [ ] cat
-  - [ ] grep
-  - [ ] sed
-  - [ ] awk
-  - [ ] curl or wget
-  - [ ] sort
-  - [ ] tr
-  - [ ] uniq
-  - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
-  - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
+
+- [ ] grep
+- [ ] sed
+- [ ] awk
+- [ ] curl
+- [ ] sort
+- [ ] tr
+- [ ] uniq
+- [ ] [strace](https://en.wikipedia.org/wiki/Strace)
+- [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
 ### Information theory (videos)
-  - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-  - [ ] more about Markov processes:
-  - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-  - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-  - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-  - See more in MIT 6.050J Information and Entropy series below.
+
+- [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
+- [ ] more about Markov processes:
+- [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
+- [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
+- [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+- See more in MIT 6.050J Information and Entropy series below.
 
 ### Parity & Hamming Code (videos)
-  - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
-  - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
-  - [ ] Hamming Code:
-  - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
-  - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
-  - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+
+- [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
+- [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+- [ ] Hamming Code:
+- [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
+- [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
+- [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 ### Entropy
-  - also see videos below
-  - make sure to watch information theory videos first
-  - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
+
+- also see videos below
+- make sure to watch information theory videos first
+- [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
 ### Cryptography
-  - also see videos below
-  - make sure to watch information theory videos first
-  - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
-  - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
-  - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+- also see videos below
+- make sure to watch information theory videos first
+- [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
+- [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
+- [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
 ### Compression
-  - make sure to watch information theory videos first
-  - [ ] Computerphile (videos):
-  - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
-  - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
-  - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
-  - [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
-  - [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
-  - [ ] [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
-  - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
-  - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
+
+- make sure to watch information theory videos first
+- [ ] Computerphile (videos):
+- [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+- [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
+- [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
+- [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
+- [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
+- [ ] [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
+- [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+- [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
 ### Computer Security
-  - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
-  - [ ] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
-  - [ ] [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
-  - [ ] [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-  - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+
+- [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
+- [ ] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
+- [ ] [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
+- [ ] [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 ### Garbage collection
-  - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
-  - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
-  - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
-  - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
-  - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+
+- [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
+- [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
+- [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+- [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
+- [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 ### Parallel Programming
-  - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-  - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+
+- [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+- [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 ### Messaging, Serialization, and Queueing Systems
-  - [ ] [Thrift](https://thrift.apache.org/)
-  - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
-  - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
-  - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
-  - [ ] [gRPC](http://www.grpc.io/)
-  - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
-  - [ ] [Redis](http://redis.io/)
-  - [Tutorial](http://try.redis.io/)
-  - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
-  - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
-  - [ ] [RabbitMQ](https://www.rabbitmq.com/)
-  - [Get Started](https://www.rabbitmq.com/getstarted.html)
-  - [ ] [Celery](http://www.celeryproject.org/)
-  - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
-  - [ ] [ZeroMQ](http://zeromq.org/)
-  - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
-  - [ ] [ActiveMQ](http://activemq.apache.org/)
-  - [ ] [Kafka](http://kafka.apache.org/documentation.html#introduction)
-  - [ ] [MessagePack](http://msgpack.org/index.html)
-  - [ ] [Avro](https://avro.apache.org/)
+
+- [ ] [Thrift](https://thrift.apache.org/)
+- [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+- [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
+- [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+- [ ] [gRPC](http://www.grpc.io/)
+- [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+- [ ] [Redis](http://redis.io/)
+- [Tutorial](http://try.redis.io/)
+- [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
+- [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
+- [ ] [RabbitMQ](https://www.rabbitmq.com/)
+- [Get Started](https://www.rabbitmq.com/getstarted.html)
+- [ ] [Celery](http://www.celeryproject.org/)
+- [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+- [ ] [ZeroMQ](http://zeromq.org/)
+- [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
+- [ ] [ActiveMQ](http://activemq.apache.org/)
+- [ ] [Kafka](http://kafka.apache.org/documentation.html#introduction)
+- [ ] [MessagePack](http://msgpack.org/index.html)
+- [ ] [Avro](https://avro.apache.org/)
 
 ### A*
 
